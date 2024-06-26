@@ -48,7 +48,7 @@ extensions:
 
 nettrine.orm.annotations:
     mapping:
-        App\Model: %appDir%/Entity # Adresar kde to zacne hladat entity
+        App\Model: %appDir%/Entity
 
 nettrine.migrations:
     directory: %appDir%/Migrations

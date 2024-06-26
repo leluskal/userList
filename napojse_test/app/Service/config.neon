@@ -3,3 +3,6 @@ search:
         in: %appDir%/Modules
         extends:
             - App\Service\AbstractRepository
+            - App\Service\UserRepository
+            - App\Service\LoginAttemptRepository
+            - app\UI\Components\Forms\User\UserFormFactory
